@@ -19,5 +19,5 @@ export default async function EditUserPage({ params }) {
     alert("User updated!");
   };
 
-  return <UserForm initialData={user} onSubmit={handleUpdate} />;
+  return <h1>edit form here</h1>;
 }
