@@ -3,7 +3,7 @@ import { Oswald } from "next/font/google";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./i18n";
+import "../i18n";
 
 const oswald = Oswald({
   weight: "400",

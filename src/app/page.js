@@ -1,14 +1,8 @@
 "use client";
 import React from "react";
 import { FaCode, FaPalette, FaRocket } from "react-icons/fa";
-import { useTranslation } from "react-i18next";
 
 export default function Home() {
-  const { t, i18n } = useTranslation();
-
-  const toggleLanguage = () => {
-    i18n.changeLanguage(i18n.language === "en" ? "ar" : "en");
-  };
   return (
     <div className="pb-5 mx-0">
       {/* Banner Section */}
