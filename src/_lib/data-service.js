@@ -1,4 +1,4 @@
-import { dbConnection } from "./dbConnection";
+import dbConnection from "./dbConnection";
 import User from "../models/user";
 
 export async function getAllUsers() {
